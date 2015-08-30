@@ -16,5 +16,13 @@ Ramons Powerpack for WordPress
 * Enhance.js
 * Microformat shiv
 * MatchMedia.js
+* Pointer Events polyfill (PEP)
+* Globalize
+* FitText
+* Has.js
+* IE9 mode
+* eBay Shortcode
 
 ## Todo ##
+* Options Screen
+* Unit testing
