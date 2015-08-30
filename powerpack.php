@@ -9,3 +9,13 @@ Author URI:  http://www.ramoonus.nl/wordpress/powerpack/
 Text Domain: powerpack
 Domain Path: /language
  */
+
+/**
+ * Detect if WordPress is above 4.3
+ * 
+ * @todo: msg, disable self
+ */
+ if ( version_compare( $GLOBALS['wp_version'], '4.3', '<' ) ) { 
+ 	// todo
+ } 
+
