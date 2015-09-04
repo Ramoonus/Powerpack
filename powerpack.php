@@ -33,3 +33,15 @@ function rw_pp_d3js() {
  wp_enqueue_script('d3.js', plugins_url( 'js/d3/d3.min.js', __FILE__ ) );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_d3js');
+
+/**
+ * Selectivizr.js
+ * 
+ * @version 1.0
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_selectivizr() {
+	wp_enqueue_script('selectivizr',plugins_url( '/js/selectivizr.js' , __FILE__ ), array(), '1.0.b3' );
+}
