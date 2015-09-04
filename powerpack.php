@@ -22,6 +22,11 @@ Domain Path: /language
  }
 
 /**
+ * wpUpdatePHP
+ * @todo fully
+ */
+
+/**
  * D3.js
  *
  * @version 3.5.6
@@ -45,3 +50,4 @@ add_action('wp_enqueue_scripts', 'rw_pp_d3js');
 function rw_selectivizr() {
 	wp_enqueue_script('selectivizr',plugins_url( '/js/selectivizr.js' , __FILE__ ), array(), '1.0.b3' );
 }
+add_action('wp_enqueue_scripts', 'rw_selectivizr');
