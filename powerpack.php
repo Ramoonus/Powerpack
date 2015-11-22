@@ -140,3 +140,17 @@ function rw_pp_microformatshiv() {
     wp_enqueue_script('microformatshiv',plugins_url( '/js/microformat-shiv/microformat-shiv.min.js' , __FILE__ ), array(), '1.3.1' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_microformatshiv');
+
+/**
+ * FontAwesome
+ *
+ * @version 4.4.0
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_fontawesome() {
+    wp_deregister_style('fontawesome')
+    wp_enqueue_style('fontawesome',plugins_url( '/css/fontawesome/font-awesome.min.css' , __FILE__ ), '4.4.0' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_fontawesome');
