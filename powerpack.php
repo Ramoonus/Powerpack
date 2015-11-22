@@ -62,3 +62,16 @@ function rw_ie9() {
     echo '<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=Edge" />';
 }
 add_action('wp_head', 'rw_ie9');
+
+/**
+ * Has.js
+ *
+ * @version 1.0
+ * @todo toggle minify
+ * @since 1.0
+ * @return void
+ */
+function rw_pp_has() {
+    wp_enqueue_script('has.js', plugins_url( 'js/has/has.js', __FILE__ ) );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_has');
