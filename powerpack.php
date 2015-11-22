@@ -167,3 +167,16 @@ function rw_pp_respond() {
     wp_enqueue_script('respondjs',plugins_url( '/js/respond/respond.min.js' , __FILE__ ), array(), '1.4.2' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_respond');
+
+/**
+ * Amplify
+ *
+ * @version 1.1.2
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_amplify() {
+    wp_enqueue_script('amplify',plugins_url( '/js/amplify/amplify.min.js' , __FILE__ ), array(), '1.1.2' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_amplify');
