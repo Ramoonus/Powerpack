@@ -154,3 +154,16 @@ function rw_pp_fontawesome() {
     wp_enqueue_style('fontawesome',plugins_url( '/css/fontawesome/font-awesome.min.css' , __FILE__ ), '4.4.0' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_fontawesome');
+
+/**
+ * Respond.js
+ *
+ * @version 1.4.2
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_respond() {
+    wp_enqueue_script('respondjs',plugins_url( '/js/respond/respond.min.js' , __FILE__ ), array(), '1.4.2' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_respond');
