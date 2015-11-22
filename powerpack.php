@@ -88,3 +88,16 @@ function rw_pp_lettering() {
     wp_enqueue_script('lettering',plugins_url( '/js/lettering/jquery.lettering.js' , __FILE__ ), array('jquery'), '0.7.0' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_lettering');
+
+/**
+ * FitText.js
+ *
+ * @version 1.2
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_fittext() {
+    wp_enqueue_script('fittext',plugins_url( '/js/fittext/jquery.fittext.js' , __FILE__ ), array('jquery'), '1.2' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_fittext');
