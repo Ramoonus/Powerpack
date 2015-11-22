@@ -127,3 +127,16 @@ function rw_pp_matchmedia() {
     wp_enqueue_script('matchmedia',plugins_url( '/js/matchmedia/matchMedia.js' , __FILE__ ), array(), '0.2' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_matchmedia');
+
+/**
+ * Microformat Shiv
+ *
+ * @version 1.3.1
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_microformatshiv() {
+    wp_enqueue_script('microformatshiv',plugins_url( '/js/microformat-shiv/microformat-shiv.min.js' , __FILE__ ), array(), '1.3.1' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_microformatshiv');
