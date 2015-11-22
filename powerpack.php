@@ -207,3 +207,16 @@ function rw_pp_excanvas() {
     wp_enqueue_script('excanvas',plugins_url( '/js/excanvas/excanvas.js' , __FILE__ ), array(), '1.0' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_excanvas');
+
+/**
+ * html5shiv
+ *
+ * @version 3.7.3
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_html5shiv() {
+    wp_enqueue_script('html5shiv',plugins_url( '/js/html5shiv/html5shiv.min.js' , __FILE__ ), array(), '3.7.3' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_html5shiv');
