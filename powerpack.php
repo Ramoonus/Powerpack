@@ -137,7 +137,7 @@ add_action('wp_enqueue_scripts', 'rw_pp_matchmedia');
  * @return void
  */
 function rw_pp_microformatshiv() {
-    wp_enqueue_script('microformatshiv',plugins_url( '/js/microformat-shiv/microformat-shiv.min.js' , __FILE__ ), array(), '1.3.1' );
+    wp_enqueue_script('microformatshiv',plugins_url( '/js/microformatshiv/microformatshiv.min.js' , __FILE__ ), array(), '1.3.1' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_microformatshiv');
 
