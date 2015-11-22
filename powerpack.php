@@ -48,7 +48,7 @@ add_action('wp_enqueue_scripts', 'rw_pp_d3js');
  * @return void
  */
 function rw_selectivizr() {
-	wp_enqueue_script('selectivizr',plugins_url( '/js/selectivizr.js' , __FILE__ ), array(), '1.0.b3' );
+	wp_enqueue_script('selectivizr',plugins_url( '/js/selectivizr/selectivizr.min.js' , __FILE__ ), array(), '1.0.b3' );
 }
 add_action('wp_enqueue_scripts', 'rw_selectivizr');
 wp_script_add_data( 'selectivizr', 'conditional', 'lt IE 9' ); /** new */
