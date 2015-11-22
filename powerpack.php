@@ -75,3 +75,16 @@ function rw_pp_has() {
     wp_enqueue_script('has.js', plugins_url( 'js/has/has.js', __FILE__ ) );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_has');
+
+/**
+ * Lettering.js
+ *
+ * @version 0.7
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_selectivizr() {
+    wp_enqueue_script('selectivizr',plugins_url( '/js/lettering/jquery.lettering.js' , __FILE__ ), array('jquery'), '0.7.0' );
+}
+add_action('wp_enqueue_scripts', 'rw_selectivizr');
