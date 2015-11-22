@@ -35,7 +35,7 @@ Domain Path: /language
  * @return void
  */
 function rw_pp_d3js() {
- wp_enqueue_script('d3.js', plugins_url( 'js/d3/d3.min.js', __FILE__ ) );
+ wp_enqueue_script('d3.js', plugins_url( 'js/d3/d3.min.js', __FILE__ ), array(), '3.5.6' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_d3js');
 
