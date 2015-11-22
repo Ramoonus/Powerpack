@@ -103,7 +103,7 @@ function rw_pp_fittext() {
 add_action('wp_enqueue_scripts', 'rw_pp_fittext');
 
 /**
- * FitText.js
+ * PEP.js
  *
  * @version 0.4
  * @since 1.0
@@ -114,3 +114,16 @@ function rw_pp_pep() {
     wp_enqueue_script('pep',plugins_url( '/js/pep/pep.min.js' , __FILE__ ), array(), '0.4' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_pep');
+
+/**
+ * matchMedia.js
+ *
+ * @version 0.2
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_matchmedia() {
+    wp_enqueue_script('matchmedia',plugins_url( '/js/matchmedia/matchMedia.js' , __FILE__ ), array(), '0.2' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_matchmedia');
