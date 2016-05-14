@@ -22,11 +22,6 @@ Domain Path: /language
  }
 
 /**
- * wpUpdatePHP
- * @todo fully
- */
-
-/**
  * D3.js
  *
  * @version 3.5.6
@@ -220,3 +215,16 @@ function rw_pp_html5shiv() {
     wp_enqueue_script('html5shiv',plugins_url( '/js/html5shiv/html5shiv.min.js' , __FILE__ ), array(), '3.7.3' );
 }
 add_action('wp_enqueue_scripts', 'rw_pp_html5shiv');
+
+/**
+ * Respond.js
+ *
+ * @version 1.0.0
+ * @since 1.0
+ * @todo toggle minify
+ * @return void
+ */
+function rw_pp_ramonjs() {
+    wp_enqueue_script('ramonjs',plugins_url( '/js/ramon/ramon.js' , __FILE__ ), array(), '1.0.0' );
+}
+add_action('wp_enqueue_scripts', 'rw_pp_ramonjs');
