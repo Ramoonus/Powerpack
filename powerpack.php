@@ -249,5 +249,11 @@ add_action('wp_enqueue_scripts', 'rw_pp_regionjs');
 /** WooCommerce
  * Category Expander
  * @version 1.0.0
+ * @since 1.0.0
  */
 include("inc/woocommerce.php");
+
+/** Integratie jQuery Updater
+ * @since 1.0.0
+ */
+include("inc/jqu.php");
