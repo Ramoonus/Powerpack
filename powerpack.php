@@ -257,3 +257,10 @@ include("inc/woocommerce.php");
  * @since 1.0.0
  */
 include("inc/jqu.php");
+
+
+/** Integratie jQuery Updater
+ * @since 1.0.0
+ * @version 1.0.0
+ */
+include("inc/common-image-size.php.php");
