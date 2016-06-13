@@ -22,6 +22,7 @@ Ramons Powerpack for WordPress
 * Has.js
 * IE9 mode
 * eBay Shortcode
+* Web of Trust (WoT) link marking and shortcode
 
 ## Todo ##
 * Options Screen
