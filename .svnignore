@@ -1,0 +1,15 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# GitHub
+.editorconfig
+readme.md
+contribute.md
+
+# Unit Testing
+tests/
+.travis.yml
+composer.json
+phpunit.xml
