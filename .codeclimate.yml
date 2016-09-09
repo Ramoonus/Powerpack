@@ -14,6 +14,16 @@ engines:
   
   csslint:
     enabled: true
+    
+  eslint:
+    enabled: true
+  
+ratings:
+  paths:
+  - "**.css"
+  - "**.js"
+  - "**.php"
+  - "**.md"
   
 exclude_paths:
 - test/**/*
