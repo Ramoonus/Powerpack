@@ -1,0 +1,10 @@
+JavaScript: true
+Ruby: false
+Python: false
+PHP: true
+
+exclude_paths:
+- test/**/*
+- vendor/**/*
+- js/**/*
+- css/**/*
