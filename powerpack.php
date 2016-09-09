@@ -14,10 +14,10 @@ Domain Path: /language
  * Detect if WordPress is above 4.3
  * 
  * @todo: msg, disable self
- * @version 4.3
+ * @version 4.6
  * @since 1.0
  */
- if ( version_compare( $GLOBALS['wp_version'], '4.3', '<' ) ) { 
+ if ( version_compare( $GLOBALS['wp_version'], '4.6', '<' ) ) { 
  	// todo
  }
 
