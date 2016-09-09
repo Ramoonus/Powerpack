@@ -1,8 +1,20 @@
-JavaScript: true
-Ruby: false
-Python: false
-PHP: true
-
+engines:
+  # PHP Code Sniffer
+  # https://docs.codeclimate.com/v1.0/docs/phpcodesniffer
+  phpcodesniffer:
+    enabled: true
+      config:
+      standard: "PSR1,PSR2, WordPress"
+  
+  phpmd:
+    enabled: true
+  
+  markdownlint:
+    enabled: true
+  
+  csslint:
+    enabled: true
+  
 exclude_paths:
 - test/**/*
 - vendor/**/*
