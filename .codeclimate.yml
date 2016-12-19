@@ -4,7 +4,7 @@ engines:
   phpcodesniffer:
     enabled: true
       config:
-      standard: "PSR1,PSR2, WordPress"
+      standard: "PSR1, PSR2, WordPress"
   
   phpmd:
     enabled: true
