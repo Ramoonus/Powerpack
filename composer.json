@@ -6,7 +6,7 @@
   "dist": {
     "url": "https://github.com/Ramoonus/Powerpack/archive/master.zip",
     "type": "zip"
-  }
+  },
 
   "require": {
     "php": ">=5.6.0"
