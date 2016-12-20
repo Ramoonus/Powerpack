@@ -9,7 +9,6 @@
   },
 
   "require": {
-    "composer/installers" : "~1.2.0",
     "php" : ">=5.6.0",
     "wordpress": ">=4.6"
   },
