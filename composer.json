@@ -19,6 +19,6 @@
     "squizlabs/php_codesniffer" : "3.*",
     "scrutinizer/ocular": "1.4.*",
     "wp-coding-standards/wpcs": "0.13.*",
-    "codeclimate/php-test-reporter": "dev-master"
+    "codeclimate/php-test-reporter": "0.4.*"
   }
 }
