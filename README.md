@@ -1,10 +1,6 @@
 # Powerpack
 Ramons Powerpack for WordPress
 
-## Dev ##
-[![Dependency Status](https://gemnasium.com/badges/github.com/Ramoonus/Powerpack.svg)](https://gemnasium.com/github.com/Ramoonus/Powerpack)
-
-
 ## Features ##
 
 * EON.js
