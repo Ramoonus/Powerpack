@@ -1,5 +1,5 @@
 {
-  "name": "Ramoonus/Powerpack",
+  "name": "PowerPack",
   "type": "wordpress-plugin",
   "minimum-stability": "dev",
   "version": "1.0.0",
@@ -10,7 +10,7 @@
 
   "require": {
     "php": "^7.0",
-    "wordpress": ">=4.9"
+    "wordpress": ">=5.7"
   },
 
   "require-dev": {
