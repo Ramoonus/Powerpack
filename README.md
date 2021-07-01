@@ -2,15 +2,21 @@
 Ramons Powerpack for WordPress
 
 ## Features ##
+* Comic Sans everything
+* IE9 mode
+* eBay Shortcode
+* Web of Trust (WoT) link marking and shortcode
 
+## Todo ##
+* Options Screen
+* Unit testing
+
+## Removed in 2.0 ##
 * EON.js
-* FontAwesome
-* D3.js
 * Selectivizr
 * Respond.js
 * Lettering.js
 * html5shiv
-* Comic Sans everything
 * Amplify.js
 * Explorer Canvas (excancas)
 * Enhance.js
@@ -20,10 +26,13 @@ Ramons Powerpack for WordPress
 * Globalize
 * FitText
 * Has.js
-* IE9 mode
-* eBay Shortcode
-* Web of Trust (WoT) link marking and shortcode
 
-## Todo ##
-* Options Screen
-* Unit testing
+## removed from planning ##
+* FontAwesome
+Please use the [official Font Awesome plugin](https://wordpress.org/plugins/font-awesome/)
+* D3.js
+Please use [MaxiChart](https://wordpress.org/plugins/maxicharts-d3js-add-on/)
+
+## QA/QC ##
+[![Maintainability](https://api.codeclimate.com/v1/badges/7fe2f6adccb41bd5fefe/maintainability)](https://codeclimate.com/github/Ramoonus/Powerpack/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7fe2f6adccb41bd5fefe/test_coverage)](https://codeclimate.com/github/Ramoonus/Powerpack/test_coverage)
