@@ -1,7 +1,7 @@
 {
   "name": "PowerPack",
   "type": "wordpress-plugin",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "version": "1.0.0",
   "dist": {
     "url": "https://github.com/Ramoonus/Powerpack/archive/master.zip",
@@ -10,7 +10,7 @@
 
   "require": {
     "php": "^7.0",
-    "wordpress": ">=5.7"
+    "wordpress": ">=5.8"
   },
 
   "require-dev": {
