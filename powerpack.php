@@ -100,23 +100,6 @@ function rw_pp_ramonjs() {
 }
 add_action('wp_enqueue_scripts', 'rw_pp_ramonjs');
 
-/**
- * Regions.js
- *
- * @version 1.0.1
- * @since 1.0
- * @todo toggle minify
- * @todo toggle jquery
- * @return void
- * @author Adobe Systems Inc
- */
-function rw_pp_regionjs() {
-    wp_deregister_script('regions'); // deregister
-    wp_enqueue_script('regions', plugins_url('/js/cssregions.min.js', __FILE__), array("jquery"), '1.0.1');
-
-}
-add_action('wp_enqueue_scripts', 'rw_pp_regionjs');
-
 /** WooCommerce
  * Category Expander
  * @version 1.0.0
