@@ -3,7 +3,6 @@ Ramons Powerpack for WordPress
 
 ## Features ##
 * Comic Sans everything
-* IE9 mode
 * eBay Shortcode
 * Web of Trust (WoT) link marking and shortcode
 
@@ -27,7 +26,7 @@ Ramons Powerpack for WordPress
 * FitText
 * Has.js
 
-## removed from planning ##
+## Removed from 2.0 planning ##
 * FontAwesome
 Please use the [official Font Awesome plugin](https://wordpress.org/plugins/font-awesome/)
 * D3.js
