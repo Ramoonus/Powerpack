@@ -21,20 +21,6 @@ Domain Path: /language
  	// todo
  }
 
-/**
- * Selectivizr.js
- * 
- * @version 1.0
- * @since 1.0
- * @todo toggle minify
- * @return void
- */
-function rw_pp_selectivizr() {
-	wp_enqueue_script('selectivizr',plugins_url( '/js/selectivizr/selectivizr.min.js' , __FILE__ ), array(), '1.0.b3' );
-}
-add_action('wp_enqueue_scripts', 'rw_pp_selectivizr');
-wp_script_add_data( 'selectivizr', 'conditional', 'lt IE 9' ); /** new */
-
 /** Internet Explorer Compatibility
  * @since 1.0
  * @version 11
