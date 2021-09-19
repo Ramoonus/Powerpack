@@ -21,16 +21,6 @@ Domain Path: /language
  	// todo
  }
 
-/** Internet Explorer Compatibility
- * @since 1.0
- * @version 11
- * @todo toggle
- */
-function rw_ie9() {
-    echo '<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=Edge" />';
-}
-add_action('wp_head', 'rw_ie9');
-
 /**
  * Has.js
  *
