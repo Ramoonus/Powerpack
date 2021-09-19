@@ -22,20 +22,6 @@ Domain Path: /language
  }
 
 /**
- * FontAwesome
- *
- * @version 4.4.0
- * @since 1.0
- * @todo toggle minify
- * @return void
- */
-function rw_pp_fontawesome() {
-    wp_deregister_style('fontawesome');
-    wp_enqueue_style('fontawesome',plugins_url( '/css/fontawesome/font-awesome.min.css' , __FILE__ ), '4.4.0' );
-}
-add_action('wp_enqueue_scripts', 'rw_pp_fontawesome');
-
-/**
  * Respond.js
  *
  * @version 1.4.2
