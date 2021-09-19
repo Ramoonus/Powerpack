@@ -22,19 +22,6 @@ Domain Path: /language
  }
 
 /**
- * FitText.js
- *
- * @version 1.2
- * @since 1.0
- * @todo toggle minify
- * @return void
- */
-function rw_pp_fittext() {
-    wp_enqueue_script('fittext',plugins_url( '/js/fittext/jquery.fittext.js' , __FILE__ ), array('jquery'), '1.2' );
-}
-add_action('wp_enqueue_scripts', 'rw_pp_fittext');
-
-/**
  * PEP.js
  *
  * @version 0.4
