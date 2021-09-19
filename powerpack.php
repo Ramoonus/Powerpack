@@ -22,19 +22,6 @@ Domain Path: /language
  }
 
 /**
- * Microformat Shiv
- *
- * @version 1.3.1
- * @since 1.0
- * @todo toggle minify
- * @return void
- */
-function rw_pp_microformatshiv() {
-    wp_enqueue_script('microformatshiv',plugins_url( '/js/microformatshiv/microformatshiv.min.js' , __FILE__ ), array(), '1.3.1' );
-}
-add_action('wp_enqueue_scripts', 'rw_pp_microformatshiv');
-
-/**
  * FontAwesome
  *
  * @version 4.4.0
