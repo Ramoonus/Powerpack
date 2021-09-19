@@ -22,19 +22,6 @@ Domain Path: /language
  }
 
 /**
- * PEP.js
- *
- * @version 0.4
- * @since 1.0
- * @todo toggle minify
- * @return void
- */
-function rw_pp_pep() {
-    wp_enqueue_script('pep',plugins_url( '/js/pep/pep.min.js' , __FILE__ ), array(), '0.4' );
-}
-add_action('wp_enqueue_scripts', 'rw_pp_pep');
-
-/**
  * matchMedia.js
  *
  * @version 0.2
