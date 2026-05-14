@@ -32,6 +32,10 @@ Please use the [official Font Awesome plugin](https://wordpress.org/plugins/font
 * D3.js
 Please use [MaxiChart](https://wordpress.org/plugins/maxicharts-d3js-add-on/)
 
+## Requirements ##
+* PHP 8.0+
+* WordPress 6.8+ (compatible with WordPress 7.0)
+
 ## QA/QC ##
 [![Maintainability](https://api.codeclimate.com/v1/badges/7fe2f6adccb41bd5fefe/maintainability)](https://codeclimate.com/github/Ramoonus/Powerpack/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/7fe2f6adccb41bd5fefe/test_coverage)](https://codeclimate.com/github/Ramoonus/Powerpack/test_coverage)
