@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="Powerpack">
+    <description>Custom PHPCS Ruleset for Powerpack WordPress Plugin</description>
+
+    <!-- Include WordPress Coding Standards -->
+    <rule ref="WordPress" />
+
+    <!-- Paths to exclude from the standards check -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+
+    <!-- File extensions to check -->
+    <fileExtensions>
+        <extension>php</extension>
+    </fileExtensions>
+
+    <!-- Report severity levels -->
+    <arg name="runtime-set" value="error_severity 1" />
+    <arg name="runtime-set" value="warning_severity 1" />
+</ruleset>
